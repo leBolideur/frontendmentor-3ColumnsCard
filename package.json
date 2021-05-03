@@ -1,0 +1,17 @@
+{
+  "name": "3-column-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "clean": "rm -Rf .cache/ .parcel-cache/ www/ dist/",
+    "build": "npm run clean; ./node_modules/.bin/parcel build src/index.html --dist-dir www --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  }
+}
