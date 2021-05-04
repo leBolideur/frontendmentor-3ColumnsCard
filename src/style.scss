@@ -21,7 +21,7 @@ body {
   display: flex;
 
   height: 50vh;
-  width: 70vw;
+  width: 60vw;
   margin: 25vh auto;
 
   &__cell {
@@ -33,7 +33,7 @@ body {
 
     h1 {
       font-family: "Big Shoulders Display", sans-serif;
-      font-weight: 400;
+      font-weight: 700;
       color: $veryLightGrey;
 
       margin-bottom: 30px;
