@@ -2,7 +2,6 @@
   "name": "3-column-preview-card-component-main",
   "version": "1.0.0",
   "description": "![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
     "clean": "rm -Rf .cache/ .parcel-cache/ www/ dist/",
@@ -12,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
     "parcel": "^2.0.0-beta.2"
   }
 }
